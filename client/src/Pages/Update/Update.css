@@ -1,0 +1,85 @@
+/* add */
+.add-container{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+.add-container-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px;
+    position: sticky;
+    top: 50px;
+}
+.add-top-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-top: 10px;
+    width: 80px;
+    height: 40px;
+    background-color: #F95738;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    /* margin-left: 20px; */
+    cursor: pointer;
+}
+.add-top-icon{
+    margin-left: 0px;
+}
+.add-top-title{
+    margin-left: 300px;
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* form */
+.addForm{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.addfacultyItems{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 10px;
+    margin-right: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px #000000; 
+    box-shadow: 0px 0px 15px -10px #000000;
+    padding: 10px;
+    border-radius: 5px;
+}
+.addfacultyItems>input{
+    margin-top: 5px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.addFacultyButtonBottom{
+    width: 200px;
+    height: 35px;
+    padding: 7px 10px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-left: 620px;
+}
+
+.addfacultyItems-label{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(104, 180, 228);
+}

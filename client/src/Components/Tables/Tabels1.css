@@ -1,0 +1,60 @@
+.books{
+    flex: 4;
+}
+.addBookButton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.addBookTitle{
+    font-weight: 600;
+    font-size: 24px;
+}
+.addbtn{
+    border: none;
+    background-color: #ed6c02;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.tableContainer{
+    padding: 20px 5px;
+}
+.tableHeadCell{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.tableViewButton{
+    width: 50px;
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.tableEditButton{
+    width: 50px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.tableDeleteButton{
+    color: red;
+    cursor: pointer;
+}

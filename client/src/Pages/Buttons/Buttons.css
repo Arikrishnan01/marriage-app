@@ -1,0 +1,28 @@
+.cal-con-map{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+}
+.cal-button{
+    background: #A8DADC;
+    height: 3rem;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #242424;
+    border: none;
+    font-size: 1.5rem;
+}
+.cal-button:hover{
+    border: 2px dotted #4A7A9F;
+}
+.equals{
+    background-color: #15e472;
+    grid-column: 3/5;
+}
+.opt{
+    background: #FF7F50;
+}
