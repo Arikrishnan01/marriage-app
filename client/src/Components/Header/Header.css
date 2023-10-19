@@ -43,7 +43,7 @@
     align-items: center;
     margin-right: 20px;
 }
-.header-right-signin{
+/* .header-right-signin{
     border: none;
     outline: none;
     width: 60px;
@@ -76,17 +76,17 @@
     align-items: center;
     justify-content: center;
     padding: 5px;
-}
+} */
 .header-right-signout{
     border: none;
     outline: none;
-    width: 60px;
+    width: 70px;
     height: 30px;
     background-color: #76D7C4;
     color: gray;
     border-radius: 10px;
     cursor: pointer;
-    margin-left: 20px;
+    margin-right: 100px;
     font-size: 14px;
     font-weight: 600;
     display: flex;

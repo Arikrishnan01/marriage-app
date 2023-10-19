@@ -27,7 +27,7 @@ export default function SignIn() {
       setPassword("");
       setIsLoading(false);
       //redirect to home page
-      navigate("/");
+      navigate("/home-page");
     }
     catch(error){
       setIsLoading(false);
@@ -72,7 +72,7 @@ export default function SignIn() {
           <button 
             type='submit'
             className='newUserBottom-btn'
-            onClick={() => navigate("/user/signup")}
+            onClick={() => navigate("/")}
           >signUp</button>
         </strong>
       </div>

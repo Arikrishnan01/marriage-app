@@ -5,6 +5,7 @@
 }
 .cal-button{
     background: #A8DADC;
+    width: 3rem;
     height: 3rem;
     padding: 10px;
     border-radius: 10px;
@@ -22,6 +23,7 @@
 .equals{
     background-color: #15e472;
     grid-column: 3/5;
+    /* width: 10rem; */
 }
 .opt{
     background: #FF7F50;

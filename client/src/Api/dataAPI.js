@@ -10,8 +10,8 @@ export async function getAllData() {
     });
 }
 
-export async function createNewData() {
-    return axios.post(`${BASE_URL}/function/createFunction`, {
+export async function createNewData(data) {
+    return axios.post(`${BASE_URL}/function/createFunction`,data, {
         headers : {
             "access-token": localStorage.getItem("token"),
         },
@@ -19,12 +19,12 @@ export async function createNewData() {
 }
 
 
-export async function updateExist(data,id) {
-    console.log(data)
-    return axios.put(`${BASE_URL}/function/${id}`,JSON.stringify(data),{
-        headers : {
-            "access-token": localStorage.getItem("token"),
-        },
-    }
-    );
-}
+// export async function updateExist(data,id) {
+//     console.log(data)
+//     return axios.put(`${BASE_URL}/function/${id}`,JSON.stringify(data),{
+//         headers : {
+//             "access-token": localStorage.getItem("token"),
+//         },
+//     }
+//     );
+// }

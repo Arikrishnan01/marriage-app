@@ -9,3 +9,8 @@ export async function userSignUp(data){
 export async function userSignIn(data){
     return axios.post(`${BASE_URL}/user/signin`, data)
 }
+
+export const HandleLogOut = () => {
+    localStorage.removeItem('token')
+    return;
+};

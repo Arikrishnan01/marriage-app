@@ -116,7 +116,9 @@ export default function Buttons({ value }) {
     }
 
   return (
-        <div className='cal-con-ma'>
+        <div className={`${getStyleName(value) !=='equals'?'cal-con-ma':""}`}
+            
+        >
             <button 
                     className={`${getStyleName(value)} cal-button`}
                     onClick={handleBtnClick}

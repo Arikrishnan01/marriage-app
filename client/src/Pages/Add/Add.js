@@ -38,7 +38,7 @@ export default function Add() {
       setCategory("");
       setIsLoading(false);
       //redirect to home page
-      navigate("/");
+      navigate("/home-page");
     }
     catch(error){
       setIsLoading(false);
@@ -52,7 +52,7 @@ export default function Add() {
         <div className='add-container-top'>
             <button 
               className='add-top-btn'
-              onClick={() => navigate("/")}
+              onClick={() => navigate("/home-page")}
             >
               <span className='add-top-icon'>
                 <ArrowBackIcon/>   

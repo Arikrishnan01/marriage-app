@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import { useNavigate } from 'react-router-dom';
+import { HandleLogOut } from '../../Api/AuthAPI';
 
 export default function Header() {
   const navigation = useNavigate();
@@ -18,7 +19,7 @@ export default function Header() {
             <p className='header-center-title'>MONEY MANAGEMENT</p>
         </div>
         <div className='header-right'>
-            <button 
+            {/* <button 
               className='header-right-signin'
               onClick={() => navigation('/user/signin')}
             >
@@ -26,11 +27,17 @@ export default function Header() {
             </button>
             <button 
               className='header-right-signup'
-              onClick={() => navigation('/user/signup')}
+              onClick={() => navigation('/')}
             >
               SignUp
-            </button>
-            <button className='header-right-signout'>
+            </button> */}
+            <button 
+              className='header-right-signout'
+              onClick={() => {
+                HandleLogOut();
+                window.location.href = "/";
+              }}
+            >
               SignOut
             </button>
         </div>
