@@ -16,7 +16,7 @@ export default function Header() {
             <p className='header-left-title'>marriage</p>
         </div>
         <div className='header-center'>
-            <p className='header-center-title'>MONEY MANAGEMENT</p>
+            <p className='header-center-title'>Marriage Expense Management </p>
         </div>
         <div className='header-right'>
             {/* <button 
